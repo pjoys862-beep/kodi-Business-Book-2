@@ -1,0 +1,6 @@
+{
+  "name": "Kodi Business Book",
+  "description": "Smart Business Accounting for SMEs by Kodi Solutions",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
