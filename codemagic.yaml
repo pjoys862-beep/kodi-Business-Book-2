@@ -6,7 +6,8 @@ workflows:
     scripts:
       - name: Build Android APK
         script: |
+          cd Kodi-Business-Book-2 || cd kodi-Business-Book-2 || cd *
           chmod +x gradlew
           ./gradlew assembleRelease
     artifacts:
-      - app/build/outputs/apk/release/*.apk
+      - "**/build/outputs/apk/release/*.apk"
